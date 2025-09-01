@@ -1,7 +1,14 @@
 # SWITCHES CONNECTED TO END DEVICES
 
-This guide explains how to establish LAN connectivity between two PCs using a switch in Cisco Packet Tracer.
+## Switch Basics Notes 
 
+- **Switch** is a networking device used to connect multiple devices (PCs, printers, servers) in a **LAN**.  
+- Operates at **Layer 2 (Data Link Layer)** of the OSI model.  
+- Uses **MAC addresses** to forward data to the correct device.  
+- Each port is a **separate collision domain**, reducing data collisions.  
+- Faster and more efficient than hubs because it sends data only to the **intended device**.  
+---
+This guide explains how to establish LAN connectivity between two PCs using a switch in Cisco Packet Tracer.
 ---
 
 ## Step 1: Setup Network Topology
