@@ -17,10 +17,12 @@
 - Open Cisco Packet Tracer.
 - Drag 1 Router and 1 Server into the workspace.
 - Connect Router FastEthernet0/0 → Server FastEthernet using Cross Cable.
+<img width="680" height="270" alt="Screenshot 2025-09-02 011554" src="https://github.com/user-attachments/assets/02332ad8-2e04-420e-9d4b-9e1d1858cb97" />
 
 ### Step 2: Turn ON TFTP Service on Server
-- Click Server → Services → TFTP.
+- Click Server → Config → TFTP.
 - Ensure TFTP is ON.
+<img width="639" height="539" alt="Screenshot 2025-09-02 012128" src="https://github.com/user-attachments/assets/517adb11-393d-4edb-94c1-adb621db47ce" />
 
 ### Step 3: Configure IP on Server
 - Go to Desktop → IP Configuration.
