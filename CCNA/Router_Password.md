@@ -19,7 +19,10 @@
 - Overrides enable password if both are set.  
 
 # Configuration
-
+## Network Topology
+- Open Cisco Packet Tracer.
+- Drag and drop a Router into the workspace.
+- Click on the router → go to CLI tab.
 ## Step 1: Configuration Modes
 ```bash
 Router> enable
