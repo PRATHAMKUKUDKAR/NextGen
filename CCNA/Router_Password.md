@@ -1,13 +1,13 @@
 # Router Password Summary  
 
-## 🔹 What is a Password?  
+## What is a Password?  
 - Used to protect router/switch from unauthorized access.  
 
-## 🔹 Why is it Important?  
+## Why is it Important?  
 - Secures the device configuration.  
 - Prevents unauthorized users from making changes.  
 
-## 🔹 Types of Passwords  
+## Types of Passwords  
 
 ### Enable Password  
 - Stored in **plain text**.  
