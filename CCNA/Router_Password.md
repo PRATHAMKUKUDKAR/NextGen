@@ -1,4 +1,4 @@
-# 🔑 Router Password Summary  
+# Router Password Summary  
 
 ## 🔹 What is a Password?  
 - Used to protect router/switch from unauthorized access.  
