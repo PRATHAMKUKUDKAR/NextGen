@@ -15,7 +15,7 @@ This guide explains how to establish LAN connectivity between two PCs using a sw
 1. Open **Cisco Packet Tracer**.  
 2. Drag and drop:  
    - **2 PCs (PC0 & PC1)**  
-   - **1 Switch (2960/2950)**  
+   - **1 Switch**  
 3. Connect devices using **Copper Straight-Through Cables** (modern switches auto-detect, so cross cable is not required):  
    - **PC0 → Switch (Fa0/1)**  
    - **PC1 → Switch (Fa0/2)**  
