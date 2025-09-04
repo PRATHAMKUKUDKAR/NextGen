@@ -1,18 +1,17 @@
-# Static Routing Summary 
+# Default Routing Summary
 
-- **Definition**: A routing method where routes are manually configured by the network administrator.  
-- **Configuration**: Admin specifies **destination network + subnet mask + next-hop IP address or exit interface**.  
-- **No Updates**: Static routes do not send or receive routing updates.  
-- **Administrative Distance (AD)**: Always `1` (very reliable and preferred over dynamic protocols if both exist).  
-- **Security**: ✅ Very secure – no external routing updates can influence it.  
-- **Bandwidth Usage**: ✅ Zero – no periodic updates are exchanged.  
-- **Reliability**: ✅ High – works as long as administrator sets correct routes.  
+- **Definition**: A route that is used when no other specific route to a destination is found in the routing table.  
+- **Configuration**: Uses the `0.0.0.0 0.0.0.0` destination network (catch-all route).  
+- **Purpose**: Acts as a **gateway of last resort**.  
+- **Administrative Distance (AD)**: By default `1` (if configured as static).    
+- **Security**: ✅ Secure – only routes defined by admin are followed.  
+- **Bandwidth Usage**: ✅ Zero – no updates exchanged.  
+- **Reliability**: ✅ Works as long as the next-hop is available.  
 
-- **Use Cases**:  
-  - Small networks  
-  - Networks with fixed topology  
-  - Backup routes (Floating Static Routes with higher AD)  
-  - Stub networks (single path to exit)  
+## Use Cases
+- Internet connection from LAN (all traffic goes to ISP router).  
+- Stub networks (networks with only one exit point).  
+- As a backup when no other route matches.  
 
 ---
 
