@@ -1,17 +1,11 @@
 # Static Routing Summary 
 
 - **Definition**: A routing method where routes are manually configured by the network administrator.  
-
 - **Configuration**: Admin specifies **destination network + subnet mask + next-hop IP address or exit interface**.  
-
 - **No Updates**: Static routes do not send or receive routing updates.  
-
 - **Administrative Distance (AD)**: Always `1` (very reliable and preferred over dynamic protocols if both exist).  
-
 - **Security**: ✅ Very secure – no external routing updates can influence it.  
-
 - **Bandwidth Usage**: ✅ Zero – no periodic updates are exchanged.  
- 
 - **Reliability**: ✅ High – works as long as administrator sets correct routes.  
 
 - **Use Cases**:  
