@@ -103,3 +103,21 @@ Router# show ip route
 ```
 <img width="1391" height="474" alt="Screenshot 2025-09-04 134255" src="https://github.com/user-attachments/assets/dc69dae5-a77f-43e9-a9c2-29e5a02dc301" />
 
+## Step 7: Assign IP to Both PCs
+
+1. Click on the **PC** .  
+2. Go to the **Desktop / Dashboard** tab.  
+3. Click on **IP Configuration**.  
+4. Manually assign the **IP Address** and **Default Gateway** for both PCs.  
+---
+
+<img width="440" alt="PC1 IP Configuration" src="https://github.com/user-attachments/assets/f2cf49b7-4dd1-4186-8909-3b9a33dfe59a" />
+
+<img width="434" alt="PC2 IP Configuration" src="https://github.com/user-attachments/assets/a2e280bf-5eba-4ca2-8309-8301b5c72a15" />
+
+
+1. Click on the **PC** .  
+2. Go to the **Desktop / Dashboard** tab.
+3. Click on Command Prompt.
+4. ping 20.0.0.2
+<img width="646" alt="Screenshot 2025-09-04 140936" src="https://github.com/user-attachments/assets/a3b09ce8-d596-4d7c-90d3-dc9ae449b486" />
