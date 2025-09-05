@@ -1,3 +1,19 @@
+# VLAN (Virtual Local Area Network)
+
+- **Definition**: VLAN is a logical division of a switch into multiple smaller networks.  
+- **OSI Layer**: Works at **Layer 2 (Data Link Layer)**.  
+- **VLAN ID Range**: **1–4094** (12-bit ID).  
+- **Default VLAN**: VLAN 1 (all switch ports belong to it by default).  
+- **Access Port**: Belongs to **one VLAN** only, connects end devices (PCs, printers).  
+- **Trunk Port**: Carries **multiple VLANs** between switches/routers using **802.1Q tagging**.  
+- **Communication Rule**:  
+  - Same VLAN → ✅ communication allowed.  
+  - Different VLANs → ❌ cannot communicate without **router/L3 switch**.  
+- **Benefits**: Security, reduced broadcasts, better performance, flexibility, scalability.  
+
+---
+# Configuration:
+
 ## Stap 1 : Topology Setup
 - Open cisco packate 
 - Drag 3 switch
