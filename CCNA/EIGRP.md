@@ -142,7 +142,7 @@ Router(config-router)# exit
 Router> enable
 Router# show ip route
 ```
-<img width="631" alt="Screenshot 2025-09-07 231827" src="https://github.com/user-attachments/assets/5bb1629c-8738-4658-9d2b-53cd9db5097a" />
+<img width="606" alt="Screenshot 2025-09-07 233059" src="https://github.com/user-attachments/assets/a500785b-f148-45f4-a57b-c26f5f204221" />
 
 
 ### 2. Verify from PC0
