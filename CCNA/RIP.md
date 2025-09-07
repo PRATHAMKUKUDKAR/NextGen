@@ -92,6 +92,8 @@ Router(config-router)# network 10.0.0.0
 Router(config-router)# network 12.0.0.0
 Router(config-router)# exit
 ```
+<img width="633" alt="Screenshot 2025-09-07 195558" src="https://github.com/user-attachments/assets/558a93af-023a-40b1-ad6f-e0aaee63e87f" />
+
 ### Enable RIP Router 1
 ```
 Router(config)# router rip
@@ -100,6 +102,9 @@ Router(config-router)# network 12.0.0.0
 Router(config-router)# network 20.0.0.0
 Router(config-router)# exit
 ```
+<img width="674" alt="Screenshot 2025-09-07 195838" src="https://github.com/user-attachments/assets/da44b950-e866-4a53-9338-9d4c64bb0db6" />
+
+
 ## Step 6: Verification
 
 ### 1. Verify on Routers (Router0 / Router1)
@@ -108,8 +113,11 @@ Router(config-router)# exit
 Router> enable
 Router# show ip route
 ```
+<img width="657" alt="Screenshot 2025-09-07 200140" src="https://github.com/user-attachments/assets/05afd6c2-5146-4117-a46f-25d5d6b40b8b" />
+
 ### 2. Verify from PC0
 - Click on **PC0 → Desktop → Command Prompt** 
 ```
 PC> ping 20.0.0.2
 ```
+<img width="638" alt="Screenshot 2025-09-07 200308" src="https://github.com/user-attachments/assets/92332280-89a6-460d-833e-2209610bca62" />
