@@ -1,3 +1,21 @@
+# Routing Information Protocol (RIP)
+
+## What is RIP?
+- RIP (Routing Information Protocol) is a **dynamic routing protocol**.
+- It automatically shares routing information between routers.
+- Uses **Distance Vector algorithm (Bellman-Ford)**.
+- Works at the **Network Layer (Layer 3)** of the OSI model.
+
+## Key Features of RIP
+- **Metric:** Hop Count (max 15 hops allowed).
+- **Protocol:** Uses UDP port **520**.
+- **Versions:**
+  - **RIP v1** → Classful (no subnet info, outdated).
+  - **RIP v2** → Classless (supports VLSM, CIDR, authentication).
+- **Updates:** Sends routing updates every **30 seconds**.
+- **Administrative Distance (AD):** 120.
+- **Small Networks Only:** Not scalable for large networks (because of 15 hop limit).
+---
 
 # Configuration
 ## Step 1: Network Topology
