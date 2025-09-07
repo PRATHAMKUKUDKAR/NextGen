@@ -1,5 +1,6 @@
 
-# Step 1: Network Topology
+# Configuration
+## Step 1: Network Topology
 
 ### Devices Required
 - 2 Routers 
@@ -23,9 +24,6 @@
 - **PC1** → `20.0.0.2 `, Gateway: `20.0.0.1`  
 
 <img width="600" alt="Screenshot 2025-09-07 191404" src="https://github.com/user-attachments/assets/2117845e-24d2-4748-bb91-f1d7e4fee5cc" />
-
-
-# Configuration
 
 ## Step 2: Router 0 Configuration
 
