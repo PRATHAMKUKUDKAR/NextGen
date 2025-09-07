@@ -1,3 +1,36 @@
+# Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+## What is EIGRP?
+- EIGRP is a **dynamic routing protocol**.
+- Originally **Cisco-proprietary**, but now an **open standard**.
+- It is a **Hybrid Protocol** (combines Distance Vector + Link State concepts).
+- Designed for **medium and large networks**.
+
+---
+
+## Key Features
+- **Metric:** Composite (uses **Bandwidth + Delay**).
+- **Protocol Number:** 88 (uses IP packets directly, not TCP/UDP).
+- **Administrative Distance (AD):**
+  - **90** → Internal EIGRP  
+  - **170** → External EIGRP  
+- **Supports:**
+  - VLSM (Variable Length Subnet Mask)  
+  - CIDR (Classless Inter-Domain Routing)  
+  - Authentication  
+- **Updates:** Sends **partial updates** (not the entire table like RIP).
+- **Convergence:** Very fast (uses DUAL algorithm).
+
+---
+
+## Algorithm Used
+- **DUAL (Diffusing Update Algorithm):**
+  - Finds the **best path (Successor)**.
+  - Maintains a **backup path (Feasible Successor)**.
+  - Ensures **loop-free routing**.
+
+---
+
 # Configuration
 ## Step 1: Network Topology
 
