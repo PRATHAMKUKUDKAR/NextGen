@@ -1,4 +1,3 @@
-# 🖥️ MCSA Practical – Client (Windows 10) + 2 Servers (Windows Server 2016)
 
 ## Step 1: Open VMware
 - Open **VMware Workstation / VMware Player**.
