@@ -128,3 +128,113 @@
 
 5. Click **OK**.  
    <img width="1919" height="1076" src="https://github.com/user-attachments/assets/f2c40f48-854d-49cf-ae9c-498f87fb6d80" />
+
+## Step 9: Same virtual Network IN all Client server1 server2
+### client
+1. Click on right click on Client
+2. click on client
+3. Go to setting
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 085741" src="https://github.com/user-attachments/assets/867ea8d7-6a8b-4542-96f8-677a053dba1c" />
+4. Ckick on network Adaptor
+5. click on custome: specific vertual network
+6. select VMNET1
+7. CLICK ON OK
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 090710" src="https://github.com/user-attachments/assets/8dcda7be-3d83-47de-93f7-a0eb87ab5f5e" />
+
+### Server1
+1. Click on right click on Server1
+2. click on Server1
+3. Go to setting
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 091231" src="https://github.com/user-attachments/assets/6aceb47c-0bbf-4a99-8832-a89cbc911157" />
+
+
+5. Ckick on network Adaptor
+6. click on custome: specific vertual network
+7. select VMNET1
+8. CLICK ON OK
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 092504" src="https://github.com/user-attachments/assets/88ebddc0-9c01-4ef3-8405-3e97cc04f47b" />
+
+### Server2
+1. Click on right click on Server2
+2. click on Server2
+3. Go to setting
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 093017" src="https://github.com/user-attachments/assets/398a0936-a297-4d26-a0c9-64e060efb6b2" />
+
+
+
+5. Ckick on network Adaptor
+6. click on custome: specific vertual network
+7. select VMNET1
+8. CLICK ON OK
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 093252" src="https://github.com/user-attachments/assets/63e83c58-29be-4845-83d2-cdb15c5c14ff" />
+
+
+## Step 10: Disable Firewall (for Testing)
+
+### Client
+1. click on window icon
+2. go to setting
+
+<img width="1919" height="1077" alt="Screenshot 2025-09-11 102858" src="https://github.com/user-attachments/assets/3940e4b1-c9f6-415c-bfa3-0ede202a7c0f" />
+
+3. click on networkand internet
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d9ac4188-23f3-4cdc-b082-2ba398589c4c" />
+
+4. scroll down and click window firewall
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5f7aa024-e069-46a7-99ab-91b5628233d1" />
+
+5. trun of public private and domain firewall 
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 104231" src="https://github.com/user-attachments/assets/9f438b63-aef9-4a16-9240-7dbae979e926" />
+
+
+### server1
+1. click on window icon
+2. click on server manager
+3. 
+<img width="1892" height="1079" alt="Screenshot 2025-09-11 094441" src="https://github.com/user-attachments/assets/43b91962-3851-4a8c-b2d6-b6ca2096e3ce" />
+
+4. click on local server
+5. click on window firewall
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 094934" src="https://github.com/user-attachments/assets/73efe095-b9bc-415b-a513-17afe1f894b3" />
+
+6.click turn window firewall on or of
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 095302" src="https://github.com/user-attachments/assets/8a9c7354-746e-4876-b231-038fa013e101" />
+
+7. trurn of private network setting and public netwoek setting
+<img width="1919" height="1003" alt="Screenshot 2025-09-11 095753" src="https://github.com/user-attachments/assets/ad4047c8-0fde-4596-b159-1398a46e8951" />
+
+
+### server2
+1. click on window icon
+2. click on server manager
+
+<img width="1917" height="1079" alt="Screenshot 2025-09-11 100437" src="https://github.com/user-attachments/assets/8a6dc832-2e84-4eee-a780-0ecfe3b6f06c" />
+
+
+4. click on local server
+5. click on window firewall
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 100816" src="https://github.com/user-attachments/assets/d062179c-a204-479b-9edc-a995e1f9b1ae" />
+
+
+6.click turn window firewall on or of
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 101205" src="https://github.com/user-attachments/assets/77427035-ed89-4322-86e9-f0383333406e" />
+
+
+7. trurn of private network setting and public netwoek setting
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-11 101451" src="https://github.com/user-attachments/assets/6b229eab-1cc9-4e7c-9908-6e7d4d12524c" />
+
+## Step 11: Test Connectivity (Ping)
+### On client
+1. click on window icon
+2. click on tyepe hare to search: command prompt
+click on command prompt
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/68bdbc25-51b6-486f-8e6f-8eb01c48dd4f" />
+
