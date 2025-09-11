@@ -236,5 +236,13 @@
 1. click on window icon
 2. click on tyepe hare to search: command prompt
 click on command prompt
+click on open
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/68bdbc25-51b6-486f-8e6f-8eb01c48dd4f" />
+
+ping 192.168.10.1
+<img width="1916" height="1011" alt="image" src="https://github.com/user-attachments/assets/d6bc7066-35dd-46c9-afbb-16951ef8bc40" />
+
+ping 192.168.10.2
+<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/0ceb4e70-75e1-40c5-81a0-372f604cc7ac" />
+
 
