@@ -4,33 +4,33 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-## 🔹 Step 1: Open VMware
+## Step 1: Open VMware
 - Launch **VMware Workstation / VMware Player**.
 - Click **Create a New Virtual Machine**.
 
 ---
 
-## 🔹 Step 2: Install Windows 10 (Client)
+## Step 2: Install Windows 10 (Client)
 - Select **ISO image** → Windows 10 ISO.
 - Install Windows 10 normally.
 
 ---
 
-## 🔹 Step 3: Install Windows Server 2016 (Server1)
+## Step 3: Install Windows Server 2016 (Server1)
 - Create a new VM → use **Windows Server 2016 ISO**.
 - Complete installation.
 
 ---
 
-## 🔹 Step 4: Install Windows Server 2016 (Server2)
+## Step 4: Install Windows Server 2016 (Server2)
 - Create a new VM → use **Windows Server 2016 ISO**.
 - Complete installation.
 
 ---
 
-## 🔹 Step 5: Rename Devices (VM Names)
+## Step 5: Rename Devices (VM Names)
 
-### 🖥️ Rename Client (Windows 10)
+### Rename Client (Windows 10)
 1. **Windows Icon → Settings → System**  
    ![Settings](https://github.com/user-attachments/assets/b1474db2-85e1-4e6a-8a85-134fd09a6bce)  
    ![System](https://github.com/user-attachments/assets/eb174fc2-b344-4114-806d-fc58edb4bacd)
@@ -42,7 +42,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-### 🖥️ Rename Server1 (Windows Server 2016)
+### Rename Server1 (Windows Server 2016)
 1. **Windows Icon → Server Manager → Local Server**  
    ![Server Manager](https://github.com/user-attachments/assets/9ee5bcb0-b63f-4496-9185-c603ecd225bc)  
    ![Local Server](https://github.com/user-attachments/assets/35041124-0049-4ef9-b1ad-7ce98d523cb3)
@@ -52,7 +52,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-### 🖥️ Rename Server2 (Windows Server 2016)
+### Rename Server2 (Windows Server 2016)
 1. **Windows Icon → Server Manager → Local Server**  
    ![Server Manager](https://github.com/user-attachments/assets/d3a2401f-5f9e-4b78-8d00-45258753649d)  
    ![Local Server](https://github.com/user-attachments/assets/fe288e4c-75b4-42b0-aeb7-6377b4b068e7)
@@ -62,7 +62,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-## 🔹 Step 6: Configure IP Address – Client
+## Step 6: Configure IP Address – Client
 1. Press **Win + R → ncpa.cpl**  
    ![Network Connections](https://github.com/user-attachments/assets/29eae156-ad70-4dc5-bbb4-e414ad1db5ed)
 
@@ -80,7 +80,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-## 🔹 Step 7: Configure IP Address – Server1
+## Step 7: Configure IP Address – Server1
 1. **Server Manager → Local Server → Ethernet0**  
    ![Ethernet](https://github.com/user-attachments/assets/637bde5d-1848-467c-85b5-e2ecc077daeb)
 
@@ -91,7 +91,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-## 🔹 Step 8: Configure IP Address – Server2
+## Step 8: Configure IP Address – Server2
 1. **Server Manager → Local Server → Ethernet0**  
    ![Ethernet](https://github.com/user-attachments/assets/3cf92625-17fd-4c10-94fc-794841f513b5)
 
@@ -103,7 +103,7 @@ This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Serv
 
 ---
 
-## 🔹 Step 9: Configure VMware Network (All VMs)
+## Step 9: Configure VMware Network (All VMs)
 - Open **VM Settings → Network Adapter → Custom → VMnet1 (Host-Only)**  
 - Apply the same for **Client, Server1, Server2**.  
 
@@ -114,7 +114,7 @@ Example:
 
 ---
 
-## 🔹 Step 10: Disable Firewall (Testing Purpose Only ⚠️)
+## Step 10: Disable Firewall (Testing Purpose Only ⚠️)
 
 ### Client (Windows 10)
 1. **Settings → Network & Internet → Windows Firewall**  
@@ -135,7 +135,7 @@ Example:
 
 ---
 
-## 🔹 Step 11: Test Connectivity (Ping)
+## Step 11: Test Connectivity (Ping)
 
 ### On Client
 1. Open **Command Prompt**.  
