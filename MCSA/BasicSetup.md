@@ -1,4 +1,4 @@
-# 🖥️ MCSA Practical Lab – Windows 10 (Client) + Windows Server 2016 (Server1 & Server2)
+# MCSA Practical Lab – Windows 10 (Client) + Windows Server 2016 (Server1 & Server2)
 
 This lab demonstrates how to set up **1 Windows 10 Client** and **2 Windows Server 2016 machines** in **VMware Workstation**, configure networking, assign IPs, disable firewalls, and test connectivity.
 
