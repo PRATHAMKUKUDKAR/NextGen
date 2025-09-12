@@ -157,5 +157,12 @@ Example:
 ## 🎯 How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/PRATHAMKUKUDKAR/NextGen.git
+   ```
+   https://github.com/PRATHAMKUKUDKAR/NextGen.git
+   ```
+2.Navigate to CCNA folder:
+```
+cd NextGen/CCNA
+```
+
+3. Open the labs in Cisco Packet Tracer or follow the CLI configurations.
