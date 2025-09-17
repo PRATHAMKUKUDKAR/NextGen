@@ -1,4 +1,4 @@
-# 🖥️ Active Directory – User Creation, Folder Sharing & Permissions
+# Active Directory – User Creation, Folder Sharing & Permissions
 
 ---
 
