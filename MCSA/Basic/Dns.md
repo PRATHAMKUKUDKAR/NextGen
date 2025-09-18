@@ -71,3 +71,26 @@ Reverse Lookup Zone name
 2. click on next
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fd819836-361b-4d09-a0f9-41c4060b3bbc" />
 
+3. type network id `192.168.10`
+4. click next
+<img width="1897" height="1079" alt="image" src="https://github.com/user-attachments/assets/aadf7f70-7a80-4aef-8494-6b12c567e753" />
+
+5. click next
+6. cleate folder atomatical folder name give 10.168.192..in-addr.arpa
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7122cd02-0c68-4d70-b1eb-0f1fdf410f8e" />
+
+7. click next
+<img width="1899" height="1062" alt="image" src="https://github.com/user-attachments/assets/58db2e03-6d02-4fd4-bb8f-6ba7fa56852e" />
+8. click finish
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/275d44cc-8906-499d-8b89-c3d3aff9fd55" />
+9. click on microsoft.com
+10. click right click on server1
+11. click on properties
+<img width="1919" height="1075" alt="image" src="https://github.com/user-attachments/assets/aa8b5252-3792-46bd-afe5-0e44969b23e6" />
+ 
+12. update asociate printer ( ptr ) recode click chake box tick and untick bicause there are refrash
+13. clik ok
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/26df434c-ea50-4f75-b13b-ae06a58d0ad4" />
+14. click on reverse lookup zone folder
+15. then click new create folder 10.168.192..in-addr.arpa
+16. now see the ip address foe conver name to ip address
