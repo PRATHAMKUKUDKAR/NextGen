@@ -94,3 +94,6 @@ Reverse Lookup Zone name
 14. click on reverse lookup zone folder
 15. then click new create folder 10.168.192..in-addr.arpa
 16. now see the ip address foe conver name to ip address
+
+<img width="1884" height="1079" alt="image" src="https://github.com/user-attachments/assets/8f5bc800-2ab4-49ba-b06f-6ea547c8d918" />
+
