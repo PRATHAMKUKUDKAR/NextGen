@@ -128,4 +128,5 @@
    ipconfig
    ```
 2. Verify that client received IP from DHCP range 192.168.10.11 - 192.168.10.20.
+
 <img width="1919" height="1000" alt="Screenshot 2025-09-18 170647" src="https://github.com/user-attachments/assets/2124b2d0-03a4-4961-9923-aadbf772066a" />
