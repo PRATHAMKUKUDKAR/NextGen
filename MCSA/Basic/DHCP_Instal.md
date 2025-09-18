@@ -1,106 +1,129 @@
-# DHCP Install
+# 📘 DHCP Installation and Configuration on Server1
 
-1. click on window button 
-2. clck on sever manager
-<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/3c659dd1-8325-415b-968d-5bb1bc50a09c" />
-3. click on add role and feture
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a2119562-ca47-4f06-b0f6-3d2d0ea88c9b" />
-4. clik on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a5e5a7e4-47a4-48c3-bb2a-21c19163dd86" />
-5. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b8919b17-2afb-40fc-bb71-0b2438a43ed9" />
-6. click on check box in dhcp
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a380a22b-bc6b-4c00-82fd-9b9ef9e908a0" />
-7. click on add feature
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/64e794c9-99bf-429e-b3bf-33ff135b8053" />
+---
 
-8. click on Next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5d350a08-795d-4ef8-b97d-cf2f7b1d7ad8" />
-9. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f3a4f8d0-de0a-493a-90ef-0be65ce0b6c9" />
-10. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/62d3ecec-8db8-4a67-81d2-99cbe200f669" />
-11. click on check box restart the destination server otomaticaly repair it
-12. click install
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ef1630d9-cee8-4135-98f3-9b6ed951290c" />
-13. complite feature instlation
-14. then click on close
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/aa3283bf-3f22-414d-8780-cdcf3661df7d" />
+## 🔹 Part 1: Install DHCP Role
 
-15. click on flag icone
-16. then click on complte dhcp configuration
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0689ed90-d1a2-4d82-b7df-a5607f5225f6" />
+### Step 1: Open Server Manager
+1. Click on **Windows Start Button**.  
+2. Select **Server Manager**.  
 
-17. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/92343cf3-80c6-4e73-914c-c247fe13baf0" />
+![Server Manager](https://github.com/user-attachments/assets/3c659dd1-8325-415b-968d-5bb1bc50a09c)
 
-18. click on commit
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f835176e-d61a-4d58-8fdf-f175b968037f" />
+---
 
-19. click on close
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/91f58a24-912d-4603-9198-1fdb3d6709d5" />
+### Step 2: Add DHCP Role
+1. In Server Manager → click **Add roles and features**.  
+2. Click **Next** until you reach **Server Roles**.  
+3. Tick ✅ **DHCP Server**.  
 
-## DHCP Configure
-1. click on window button 
-2. clck on sever manager
-<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/3c659dd1-8325-415b-968d-5bb1bc50a09c" />
+![Add DHCP](https://github.com/user-attachments/assets/a380a22b-bc6b-4c00-82fd-9b9ef9e908a0)
 
-3. click on tool
-4. click on dhcp
-<img width="1908" height="1079" alt="image" src="https://github.com/user-attachments/assets/27c30107-81b9-4ae8-826b-62f7ce7eceac" />
+4. Click **Add Features** → **Next**.  
+5. Continue clicking **Next** until **Confirmation** page.  
+6. Tick ✅ **Restart the destination server automatically if required**.  
+7. Click **Install**.  
 
-5. click on server1.microsoft.com
-6. right on on ipv4
-7. click on new scope
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/48cb4db5-f115-492e-8698-6ea1d6318755" />
-8. click on next
-<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/e0d42cb3-2878-4c5e-9ed9-61875c5343d0" />
+![Install DHCP](https://github.com/user-attachments/assets/ef1630d9-cee8-4135-98f3-9b6ed951290c)
 
- scope name
-10. click on name type `MicrosoftDomain`
-11. click next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7d8f1ff4-84a9-4597-9b86-39626b1ecaa5" />
+---
 
-ip addres range
-12. start ip addres : `192.168.10.11`
-13. end ip addres : `192.168.10.20`
-14. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a630a92b-223e-42ab-ab04-6b8667752ea4" />
+### Step 3: Complete DHCP Installation
+1. Wait for installation to finish.  
+2. Click **Close**.  
+3. In Server Manager, click the **Flag Icon**.  
+4. Select **Complete DHCP configuration**.  
 
-add exclution and delay
-15. start ip : 192.168.10.12
-16. end ip adress : 192.168.10.13
-17. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0578ac16-551a-4ae3-8460-14a5c6507190" />
+![DHCP Config](https://github.com/user-attachments/assets/0689ed90-d1a2-4d82-b7df-a5607f5225f6)
 
-lease duration
-18. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/12eef570-7b82-4caa-b5bc-3349db9254e0" />
+5. Click **Next → Commit → Close**.  
 
-configuration dhcp option
-19. tick on yes
-20. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/acaabcc3-4416-43d6-8ac5-d2382c2abb01" />
+✅ DHCP Role is successfully installed.
 
-Router (Defalte Gateway)
-21. type ip addres :- `192.168.10.254`
-22. click on add
-23. click on next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/843e174b-b448-457c-8b13-568c66a56788" />
+---
 
-Domain name and dns server
-1. click next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bb016066-d070-4230-b5ea-f9e5ca6cbb9b" />
+## 🔹 Part 2: Configure DHCP
 
-wins server
-1. click next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0a4f1cd8-5268-4fd9-85e6-3d5a5b049616" />
+### Step 1: Open DHCP Management
+1. Go to **Server Manager → Tools → DHCP**.  
 
-active scope
-1. tick on yes
-2. click on next
-<img width="1919" height="1065" alt="image" src="https://github.com/user-attachments/assets/a862f183-a8a8-44b3-88d4-812e5f4292b4" />
+![Open DHCP](https://github.com/user-attachments/assets/27c30107-81b9-4ae8-826b-62f7ce7eceac)
 
-complite the new scope wizard 
-1. click on finish
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0e24af7f-2261-4d88-bf58-8a7ec92a9b6f" />
+---
+
+### Step 2: Create New Scope
+1. Expand your server → Right-click **IPv4** → Select **New Scope**.  
+2. Click **Next**.  
+3. Enter Scope Name → `MicrosoftDomain`.  
+
+![Scope Name](https://github.com/user-attachments/assets/7d8f1ff4-84a9-4597-9b86-39626b1ecaa5)
+
+---
+
+### Step 3: Set IP Address Range
+- Start IP: `192.168.10.11`  
+- End IP: `192.168.10.20`  
+
+![IP Range](https://github.com/user-attachments/assets/a630a92b-223e-42ab-ab04-6b8667752ea4)
+
+---
+
+### Step 4: Add Exclusions
+- Start IP: `192.168.10.12`  
+- End IP: `192.168.10.13`  
+
+![Exclusions](https://github.com/user-attachments/assets/0578ac16-551a-4ae3-8460-14a5c6507190)
+
+---
+
+### Step 5: Lease Duration
+- Leave default → Click **Next**.  
+
+![Lease Duration](https://github.com/user-attachments/assets/12eef570-7b82-4caa-b5bc-3349db9254e0)
+
+---
+
+### Step 6: Configure DHCP Options
+- Select **Yes, I want to configure these options now** → Next.  
+
+![Config Options](https://github.com/user-attachments/assets/acaabcc3-4416-43d6-8ac5-d2382c2abb01)
+
+---
+
+### Step 7: Router (Default Gateway)
+- IP: `192.168.10.254`  
+- Click **Add → Next**.  
+
+![Gateway](https://github.com/user-attachments/assets/843e174b-b448-457c-8b13-568c66a56788)
+
+---
+
+### Step 8: DNS & WINS
+- Keep default DNS (your server’s IP).  
+- Click **Next** for DNS and WINS configuration.  
+
+---
+
+### Step 9: Activate Scope
+- Select **Yes, I want to activate this scope now** → Next → Finish.  
+
+![Activate Scope](https://github.com/user-attachments/assets/a862f183-a8a8-44b3-88d4-812e5f4292b4)
+
+✅ DHCP Scope is successfully configured.
+
+---
+
+## 🔹 Part 3: Verify DHCP on Server2
+
+### Step 1: Open Command Prompt
+1. Press **Windows + R** → type `cmd` → OK.  
+
+![CMD](https://github.com/user-attachments/assets/68203c03-e563-4eac-a790-71e05761a907)
+
+---
+
+### Step 2: Check IP Address
+1. Type:  
+   ```
+   ipconfig
+   ```
