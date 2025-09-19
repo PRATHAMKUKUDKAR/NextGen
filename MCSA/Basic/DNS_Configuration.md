@@ -160,3 +160,104 @@ This guide explains how to configure DNS Zones in **Windows Server (Server Manag
 
 ---
 
+# 📘 DNS – Secondary Zone
+
+## 🔹 What is a Secondary Zone?
+- A **read-only copy** of a Primary Zone.  
+- It gets its data through **Zone Transfer** from the Primary DNS server.  
+- Provides **redundancy and load balancing** for DNS queries.  
+- Cannot be edited directly – only updated from the Primary Zone.  
+- Helps in fault tolerance (if Primary goes down, Secondary still resolves queries).
+
+# Configuration
+1. Go to server 2
+2. click on window icon
+3. click on server manager
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3fb90c9e-3aab-4572-ac57-97504c141fd8" />
+
+4. click on Dashbord
+5. Add Role and Feature
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4af2e8e5-4fc2-416d-b51b-29b86fc45de9" />
+
+6. click on Dashbord
+7. Add Role and Feature
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7d428674-9f52-4c03-a887-0a1aadc53413" />
+
+8. Before You Beguin Click next
+9. instaletion Type tick on role base or Feature base installation click Next
+10. server Selection click next
+11. server Role click on DNS Sever
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/252eb246-160b-46bd-b406-46a3d28d971d" />
+12. click on Add Feature
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/59f2b051-913a-4f24-b74b-ec54774ab669" />
+
+13. feature click next
+14. dns server click next
+
+15. conformation
+16. tick on Restart the destination Server Atomaticaly If requqre
+17. click on Yes
+18. click on Install
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/be6a5d57-5051-4c15-8db5-ea066ad9f3aa" />
+19. after conplite Feture Instalation then click on close
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c22d3bd0-d512-421d-b8d8-f05bd52432cc" />
+Configuration
+1. Click on tools
+2. then click on Dns
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/31b18622-9e84-409a-a7bb-78d1e71cbc13" />
+
+3. click on Server2
+4. clik Forward Lookup Zone folder
+5. click New Zone
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/21a02ace-0af2-4109-b8b1-d9409044a1f5" />
+
+6. clik next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e93de1b7-823b-44b4-8948-1a63e27d3f3d" />
+
+zone type 
+7. click on secondary zone 
+8. click next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/3ac9ddb7-1ba1-4664-905e-892da1b7aeed" />
+
+zone name
+9. type Zone name `microsoft.com`
+10. click next 
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5f85b683-2f6a-41ba-80e0-c5612a3374ac" />
+
+master dns server
+11. type ip address `192.168.10.1` 
+12. click on next 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4d16d7c8-235f-4d29-b52e-f32e15f38750" />
+13. clik on Finish
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/03382e0a-33a6-4980-a42e-d96660655e14" />
+
+15. clik on forward lookup zonee folder
+16. click on microsoft .com
+17. the see the error zone not loaded by dns server
+<img width="1916" height="1002" alt="image" src="https://github.com/user-attachments/assets/0d409fd2-37d6-4a13-ba4a-a6e8898fc012" />
+
+approwal on serve1
+1. go to forward lookup zone
+2. right click on microsoft.co
+3. click on properties
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/732ec4e9-7ecb-49b7-8344-f179866b321b" />
+
+
+4. click on zone trasfare
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/930d4997-3d76-480a-8c44-76d2680a2399" />
+
+5. tick allow zone transfer
+6. tick on only the following servers
+7. click on Edit
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b8dba37d-1f78-41eb-a426-fdb3cfdf6b04" />
+
+
+8. type ip address
+9. click ok
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/87021d90-2cad-493d-8081-8b80b0c60d7e" />
+
+10. right click on microsoft.com
+11. click on Refresh
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bea22d31-6296-4ea5-89a6-95d849c024d3" />
+
