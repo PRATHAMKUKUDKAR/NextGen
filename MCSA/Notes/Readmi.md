@@ -35,4 +35,15 @@
 - Only one **Primary Zone** exists per DNS namespace.  
 - Stores records like **A, CNAME, MX, PTR, SRV** etc.  
 - Changes (add, modify, delete records) can be made **only here**.  
-- Can replicate data to **Secondary Zones** for redundancy.  
+- Can replicate data to **Secondary Zones** for redundancy.
+
+
+## 📘 Secondary Zone  
+
+### 🔹 What is Secondary Zone?  
+- A **read-only copy** of the Primary Zone.  
+- Updated through **Zone Transfer**.  
+- Provides **redundancy + load balancing**.  
+- Cannot be edited directly.  
+
+✅ In short: **Backup of Primary Zone (Read-only)**  
