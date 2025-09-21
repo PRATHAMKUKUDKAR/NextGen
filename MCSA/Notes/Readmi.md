@@ -252,3 +252,43 @@ When a client joins the network, it follows the **DORA** process:
 ✅ In short: **DORA = How DHCP assigns IP automatically.**
 
 
+# 💽 MBR vs GPT (Disk Partition Styles)
+
+---
+
+## 🔹 What is MBR?
+- **MBR = Master Boot Record**  
+- Old partition style (introduced in 1983).  
+- Stores partition info in the **first sector of the disk**.  
+- Supports **only up to 2 TB disks**.  
+- Can have **maximum 4 primary partitions**.  
+- Used in **BIOS-based systems**.  
+
+✅ Good for old systems, but limited.
+
+---
+
+## 🔹 What is GPT?
+- **GPT = GUID Partition Table**  
+- Newer standard (replaces MBR).  
+- Supports **disks larger than 2 TB**.  
+- Can have **128 partitions** (no need for extended partitions).  
+- Stores **multiple copies** of partition data → more reliable.  
+- Works with **UEFI-based systems**.  
+
+✅ Modern, more secure, supports big storage.
+
+---
+
+## 📊 Key Differences
+
+| Feature            | MBR                        | GPT                         |
+|--------------------|----------------------------|-----------------------------|
+| Full Form          | Master Boot Record         | GUID Partition Table        |
+| Max Disk Size      | 2 TB                       | 9.4 ZB (theoretical)        |
+| Max Partitions     | 4 Primary (or 3 + Extended)| 128 Partitions              |
+| Compatibility      | Older systems (BIOS)       | Modern systems (UEFI)       |
+| Reliability        | Stores single boot data    | Stores multiple copies      |
+| Year Introduced    | 1983                       | 2010+ (with UEFI)           |
+
+---
