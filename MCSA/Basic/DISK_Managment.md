@@ -43,3 +43,30 @@ Create 2 DIsk
 5. click on new Simple Volume
 <img width="1853" height="1005" alt="image" src="https://github.com/user-attachments/assets/b58c4a41-74af-4a85-9abe-cdf6dc88f65f" />
 
+6. Wlcome to the New Simple volume Wizard CLick Next
+7. Specify Volume size Click Next
+8. Assign Drive Later And Path You can coise E to Z Aany
+9. click on next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e82cac03-cc94-4e08-812d-aea87e459957" />
+10. Format Partition Chenge Volume Lable : `test1`
+11. click on Next
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fcbf0f20-1ede-4be5-8dd6-cbc26561ecf9" />
+12. Complite the new simple volume Wizard
+13. click Finish
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0e6291f6-3d8c-4a09-b87d-814d428c91a5" />
+## Extend volume 
+1. click on Righr click Test1 (E)
+2. click on Extend Volume
+<img width="1919" height="1063" alt="image" src="https://github.com/user-attachments/assets/1bd96c19-bbd0-4611-a309-1a2ef3535387" />
+3. Welcome to the Extend volume wizard click next
+4. Select Disk
+5. Click on DIsk 2
+6. Clic on Add
+7. click on Next
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/a7444b9e-9855-4649-86d3-58729454493a" />
+8. Complite the extend Volume wizard
+9. click Finish
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/88545d48-a75a-4e37-9643-71ecc93f37bf" />
+10. now you see create the extend volume and see the Test Volume Size 4gb
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/51b2e3c6-1771-4104-9789-260b35e58ebe" />
+11. One disk is curupt so you can not acces the deta 
