@@ -1,3 +1,99 @@
+# 🖥️ Workgroup vs Domain in Windows Networking
+
+## 📌 Overview
+In Windows networking, computers can be organized into **Workgroups** or **Domains**.  
+Both define how resources, security, and administration are managed across multiple systems.
+
+---
+
+## 🔹 Workgroup
+A **Workgroup** is a peer-to-peer network model where each computer is responsible for its own security and management.  
+
+### ✨ Features:
+- No centralized control (each PC manages itself).  
+- User accounts are local to each computer.  
+- Best suited for **small networks** (≤10 PCs).  
+- No domain controller required.  
+- Simple setup, usually for home or small offices.  
+
+---
+
+## 🔹 Domain
+A **Domain** is a client-server network model managed by a **Domain Controller (DC)**.  
+
+### ✨ Features:
+- Centralized management of users, computers, and policies.  
+- Users can log in to **any PC in the domain** with a single account.  
+- Best suited for **large networks** (corporates, universities).  
+- Provides advanced security and group policies.  
+- Requires at least one **Domain Controller (Windows Server)**.  
+
+---
+
+## 🔁 Key Differences
+
+| Feature              | Workgroup | Domain |
+|----------------------|-----------|--------|
+| **Management**       | Each PC manages itself | Centralized via Domain Controller |
+| **User Accounts**    | Local on each PC | Stored in Domain Controller |
+| **Security**         | Basic, local only | Advanced (Group Policies, Permissions, Encryption) |
+| **Scalability**      | Small networks | Large networks |
+| **Authentication**   | Local PC login | Domain login (single account across network) |
+| **Best For**         | Home / small office | Corporate / enterprise networks |
+
+---
+# 💾 NTFS vs FAT32 File System
+
+## 📌 Overview
+Windows operating systems support multiple file systems.  
+The two most commonly used are **NTFS (New Technology File System)** and **FAT32 (File Allocation Table 32)**.  
+Each has its own strengths and limitations.
+
+---
+
+## 🔹 NTFS (New Technology File System)
+
+### ✨ Features:
+- Introduced with **Windows NT**.  
+- Supports **very large files** (up to 16 TB+ depending on cluster size).  
+- Provides **file and folder security** with permissions.  
+- Supports **encryption (EFS)** and **compression**.  
+- More reliable due to **journaling** (tracks changes to avoid corruption).  
+- Commonly used for **Windows system drives** and large storage.  
+
+---
+
+## 🔹 FAT32 (File Allocation Table 32)
+
+### ✨ Features:
+- Introduced with **Windows 95 OSR2**.  
+- Maximum file size: **4 GB**.  
+- Maximum partition size: **2 TB**.  
+- No file-level security or encryption.  
+- Supported across **Windows, Linux, macOS, consoles, and embedded devices**.  
+- Best for **USB drives and cross-platform compatibility**.  
+
+---
+
+## 🔁 Key Differences
+
+| Feature              | NTFS | FAT32 |
+|----------------------|------|-------|
+| **Full Form**        | New Technology File System | File Allocation Table 32 |
+| **Introduced In**    | Windows NT (1993) | Windows 95 OSR2 (1996) |
+| **Max File Size**    | 16 TB – 256 TB (depends) | 4 GB |
+| **Max Partition**    | 256 TB | 2 TB |
+| **Security**         | File/folder permissions, encryption | None |
+| **Reliability**      | Journaling (less data loss) | No journaling |
+| **Compression**      | Supported | Not supported |
+| **Encryption**       | Supported (EFS) | Not supported |
+| **Compatibility**    | Modern Windows (limited Linux/macOS) | Almost all OS & devices |
+| **Best For**         | Internal/system drives | USB drives, cross-platform use |
+
+---
+
+
+
 # 🌐 DNS vs NetBIOS  
 
 ## 🔹 DNS (Domain Name System)
