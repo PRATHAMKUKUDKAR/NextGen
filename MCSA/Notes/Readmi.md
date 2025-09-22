@@ -1,11 +1,5 @@
 # 🖥️ Workgroup vs Domain in Windows Networking
 
-## 📌 Overview
-In Windows networking, computers can be organized into **Workgroups** or **Domains**.  
-Both define how resources, security, and administration are managed across multiple systems.
-
----
-
 ## 🔹 Workgroup
 A **Workgroup** is a peer-to-peer network model where each computer is responsible for its own security and management.  
 
