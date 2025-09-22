@@ -382,3 +382,67 @@ When a client joins the network, it follows the **DORA** process:
 | Year Introduced    | 1983                       | 2010+ (with UEFI)           |
 
 ---
+
+# 👤 Local Profile vs Roaming Profile in Windows
+
+## 🔹 Local Profile
+- Ek **user profile** jo **sirf ek computer** pe banta hai.  
+- User ke **Desktop, Documents, aur Settings** locally store hote hain.  
+- Agar user dusre PC pe login kare → **profile available nahi hoti**, naya profile ban jaata hai.
+
+### ✨ Pros:
+- Fast (local disk pe hota hai).  
+- Simple setup.  
+
+### ✨ Cons:
+- Settings aur files sirf ek PC tak limited.  
+
+---
+
+## 🔹 Roaming Profile
+- Ye profile **server pe store hoti hai** (Active Directory environment).  
+- User kisi bhi domain-joined PC pe login kare → **profile server se load hoti hai**.  
+- Desktop, Documents, aur Settings **same hote hain har PC pe**.
+
+### ✨ Pros:
+- Settings aur data consistent across PCs.  
+- Easy management for network admins.  
+
+### ✨ Cons:
+- Login/logout slow ho sakta hai (large profile).  
+- Network dependency → Server down hone par profile load nahi hogi.  
+
+---
+
+## 🔁 Key Differences
+
+| Feature               | Local Profile                  | Roaming Profile                        |
+|-----------------------|--------------------------------|----------------------------------------|
+| **Location**          | Local computer disk           | Server (network share)                 |
+| **Availability**      | Sirf wahi PC                  | Kisi bhi domain-joined PC              |
+| **Setup**             | Simple                        | Requires AD + server setup             |
+| **Speed**             | Fast                          | Slow (network dependent)               |
+| **Use Case**          | Home / Single PC              | Enterprise / Multiple PC users         |
+
+---
+
+# 🛠️ Group Policy (MCSA)
+
+## 📌 Overview
+**Group Policy (GPO)** allows administrators to **centrally manage users and computers** in a Windows Domain.  
+Used for **security, restrictions, software deployment, and settings**.
+
+---
+
+## 🔹 Types of Group Policy
+
+1. **Local GPO**  
+   - Applies to **one computer** only.  
+   - Example: Disable USB ports on a PC.  
+
+2. **Domain GPO**  
+   - Applies to **all computers/users in the domain**.  
+   - Example: Enforce password policy for all users.  
+
+---
+
