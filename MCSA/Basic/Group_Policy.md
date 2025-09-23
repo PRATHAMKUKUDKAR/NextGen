@@ -1,146 +1,157 @@
-1. click on on Tool 
-2. Click on Active directory User And Computer
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2f1b0073-db2a-43ce-bbbb-4cd7f89d4704" />
+# 🛠️ Active Directory – OU, Users & Group Policy Configuration
 
-## Create ORGANIZATION UNIT HR, RMG, PROJECT 
-3. click on right click on microsoft.com
-4. click on new
-5. click on organization unit
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/60b90eb4-dd38-46c1-9382-b1a1d4a15f38" />
-6. type name `HR`
-7. click ok
-<img width="1905" height="1079" alt="image" src="https://github.com/user-attachments/assets/c8c72ac9-ef48-4c71-9e66-f344b500ec2d" />
+This guide explains step-by-step how to **create Organizational Units (OUs)**, **add users**, and **apply Group Policies** in **Active Directory** with screenshots.
 
-Now create HR OU
-Same Configuration For RMG AND PROECT
-## CREATE USER UNSER ORGANIZATION UNIT  
-HR Under - HR1, HR2, HR3
-RMG Under- RMG1, RMG2, RMG3
-PROJECT UNDER-PROJECT1, PROJECT2,PROJECT3
+---
 
-### CONFIGURATION
-1. Right Click on HR
-2. click on new
-3. click on user
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/05ed8b49-1459-4809-8dda-83f89d1e5a86" />
-4. type first name `HR1`
-5. Type logon name `HR1`
-6. click Next
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e74589ae-3f17-49fd-91c3-0658939f972e" />
-7. TYPE YOUR PASSWORD
-8. TICK ON PASSWORD NEVER EXPIRE
-9. CLICK NEXT
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fd7d4e47-8daa-46a8-afd9-e62d45fda89d" />
+## 📌 Step 1: Open Active Directory Users and Computers
+1. Click on **Tools** in Server Manager.  
+2. Select **Active Directory Users and Computers**.  
 
-SAME CREATE USER HR2 AND HR3 
-SAME CONFIGURATION FOR RMG USERS AND PROJECT 
-10. NOW YOU SEE ORGANIZATION UNIT AND USERS
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e4c79de7-e0c7-489b-9ea8-cc764060fd90" />
+![Active Directory](https://github.com/user-attachments/assets/2f1b0073-db2a-43ce-bbbb-4cd7f89d4704)
 
-## GROUP POLICY
-microsoft.com policy
+---
 
-1. Go to SERVER Manager
-2. Click on Tool
-3. click on Group Policy Management
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/656f0b47-baf7-475b-b988-1c6f87f688d8" />
+## 📌 Step 2: Create Organization Units (OUs)
+We will create **HR**, **RMG**, and **PROJECT** OUs.
 
-1. CLICK ON FOREST: microsoft.com
-2. click on domain
-3. click on microsoft.com
-4. Right click on Defalte domain policy
-5. click on Edit
-<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/ee2f9a9f-3a2c-43a3-a33d-562ebec98adf" />
-13. click on user Configuration
-14. click on policy
-15. click on administrative template
-16. click on start mene and start bar
-17. select remove run menu from start menu
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7c79b2fb-96eb-4d75-87c5-af609beb622d" />
-18. select on anable
-19. click on apply
-20. click on ok
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/103f5442-a60d-44b5-a9bc-483bfb2c45b0" />
+1. Right-click on `microsoft.com`.  
+2. Click on **New → Organizational Unit**.  
 
-## Verify
-1. Go to server2
-2. power on the serve 2
-3. click on other user
-4. type user name `HR1`
-5. type Password `Pass@123`
-<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/6fff2f59-8b15-40d4-8f76-c9ef18d69169" />
+![New OU](https://github.com/user-attachments/assets/60b90eb4-dd38-46c1-9382-b1a1d4a15f38)
 
-6. curser move to window icone
-7. click on run
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
-8. now see this eroor
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0cca57c8-f99c-4b53-bab8-9c9be22f48f1" />
+3. Type name `HR` → Click **OK**.  
 
+![HR OU](https://github.com/user-attachments/assets/c8c72ac9-ef48-4c71-9e66-f344b500ec2d)
 
-HR Policy 
+➡️ Repeat same steps to create **RMG** and **PROJECT** OUs.
 
-4. CLICK ON FOREST: microsoft.com
-5. click on domain
-6. click on microsoft.com
-7. right click on HR
-8. click create GPO in this domain , and like it here
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c37ff1f8-7c1a-415f-b30c-f87485e75c01" />
+---
 
-9. type policy name `HRPOLICY`
-10. click on ok
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1cdfebea-6984-4cc3-9d12-ac7affb05e73" />
+## 📌 Step 3: Create Users Under OUs
+Example: Creating user **HR1** under **HR OU**.
 
-11. Right click on HRPOLICY
-12. click on Edit
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d159bf4c-e7b1-4000-9ea2-7d08b3771ead" />
-13. click on user Configuration
-14. click on policy
-15. click on administrative template
-16. click on start mene and start bar
-17. click on standard 
-18. select remove run menu from start menu
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/970b3ef4-8e1b-46ad-9b86-a00991744b66" />
-18. select on Disable
-19. click on Apply
-20. click on ok
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/645b54ab-7039-405b-8d66-e44836567680" />
+1. Right-click on **HR OU** → **New → User**.  
 
-## Verify
-1. Go to server2
-2. power on the serve 2
-3. click on other user
-4. type user name `HR1`
-5. type Password `Pass@123`
-<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/6fff2f59-8b15-40d4-8f76-c9ef18d69169" />
+![New User](https://github.com/user-attachments/assets/05ed8b49-1459-4809-8dda-83f89d1e5a86)
 
-6. curser move to window icone
-7. click on run
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
+2. Enter details:  
+   - First Name: `HR1`  
+   - Logon Name: `HR1`  
 
-in case can not open run command so do 
-1. open command prompt
+![HR1 User](https://github.com/user-attachments/assets/e74589ae-3f17-49fd-91c3-0658939f972e)
+
+3. Set password:  
+   - Type password: `Pass@123`  
+   - Tick **Password Never Expires** → Click **Next**  
+
+![Password](https://github.com/user-attachments/assets/fd7d4e47-8daa-46a8-afd9-e62d45fda89d)
+
+➡️ Repeat same steps for **HR2, HR3**.  
+➡️ Do same for **RMG1, RMG2, RMG3** and **PROJECT1, PROJECT2, PROJECT3**.  
+
+Now your OU and Users will look like this:  
+
+![OU Users](https://github.com/user-attachments/assets/e4c79de7-e0c7-489b-9ea8-cc764060fd90)
+
+---
+
+## 📌 Step 4: Apply Group Policy at Domain Level
+Example: **Remove Run option from Start Menu** for all users.
+
+1. Open **Group Policy Management**.  
+
+![GPO](https://github.com/user-attachments/assets/656f0b47-baf7-475b-b988-1c6f87f688d8)
+
+2. Expand → `Forest: microsoft.com → Domains → microsoft.com`.  
+3. Right-click on **Default Domain Policy** → Click **Edit**.  
+
+![Edit GPO](https://github.com/user-attachments/assets/ee2f9a9f-3a2c-43a3-a33d-562ebec98adf)
+
+4. Navigate:  
+   - **User Configuration → Policies → Administrative Templates → Start Menu and Taskbar**.  
+   - Select **Remove Run menu from Start Menu**.  
+
+![Run Menu](https://github.com/user-attachments/assets/7c79b2fb-96eb-4d75-87c5-af609beb622d)
+
+5. Enable Policy → Click **Apply → OK**.  
+
+![Enable Policy](https://github.com/user-attachments/assets/103f5442-a60d-44b5-a9bc-483bfb2c45b0)
+
+---
+
+## 📌 Step 5: Verify Group Policy on Client
+1. Log in to **Server2** with user **HR1**.  
+   - Username: `HR1`  
+   - Password: `Pass@123`  
+
+![Login](https://github.com/user-attachments/assets/6fff2f59-8b15-40d4-8f76-c9ef18d69169)
+
+2. Try opening **Run (Win + R)**.  
+
+![Run](https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb)
+
+3. You will get an error (Run is disabled).  
+
+![Error](https://github.com/user-attachments/assets/0cca57c8-f99c-4b53-bab8-9c9be22f48f1)
+
+---
+
+## 📌 Step 6: Apply OU-Level Policy (HR Specific)
+1. In **Group Policy Management** → Right-click on **HR OU**.  
+2. Select **Create a GPO in this domain, and Link it here**.  
+
+![New GPO](https://github.com/user-attachments/assets/c37ff1f8-7c1a-415f-b30c-f87485e75c01)
+
+3. Name it: `HRPOLICY` → Click OK.  
+
+![HR Policy](https://github.com/user-attachments/assets/1cdfebea-6984-4cc3-9d12-ac7affb05e73)
+
+4. Right-click on `HRPOLICY` → Click **Edit**.  
+
+![Edit HR Policy](https://github.com/user-attachments/assets/d159bf4c-e7b1-4000-9ea2-7d08b3771ead)
+
+5. Navigate same path:  
+   - **User Configuration → Policies → Administrative Templates → Start Menu and Taskbar**.  
+   - Set **Remove Run menu from Start Menu → Disable**.  
+
+![Disable Policy](https://github.com/user-attachments/assets/970b3ef4-8e1b-46ad-9b86-a00991744b66)
+
+6. Apply → OK.  
+
+![Disable Apply](https://github.com/user-attachments/assets/645b54ab-7039-405b-8d66-e44836567680)
+
+---
+
+## 📌 Step 7: Verify OU Policy
+### HR User 
+1. Log in to **Server2** with `HR1`.  
+2. If policy not applied, run:  
+
 ```
 gpupdate /force
 ```
-6. curser move to window icone
-7. click on run
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
+<img width="1919" height="1004" alt="Screenshot 2025-09-23 172503" src="https://github.com/user-attachments/assets/e5db63e4-7f11-4fb1-a3dc-43bd1b7c7f82" />
 
-8. then see thes reasult now work the run
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/148b6ea1-01ab-4415-990c-114b106de916" />
+3. Go to Window icon
+4. click on right click
+5. clik on run
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/11ec8aca-2b35-4b21-8eec-c67b57db0f3e" />
 
-## also Verify in user RMG but rmg not work on run because i can not give policy 
-1. Go to server2
-2. power on the serve 2
-3. click on other user
-4. type user name `RMG1`
-5. type Password `Pass@123`
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/09842651-f293-4059-ae1d-aae508fde26f" />
+> ✅ This works because the policy has been applied to the HR user.
 
-6. curser move to window icone
-7. click on run
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
-8. now see this eroor
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0cca57c8-f99c-4b53-bab8-9c9be22f48f1" />
 
-beacause i can not give policy in user RMG1 
+### Rmg User
+
+1. On **Server2** log in as `RMG1 / Pass@123`.  
+   ![RMG1 login](https://github.com/user-attachments/assets/09842651-f293-4059-ae1d-aae508fde26f)
+
+2. Try open **Run** (Win + R) — nothing happens / error shown.  
+   ![Open Run](https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb)  
+
+3. Error message when attempting Run:  
+   ![Run error](https://github.com/user-attachments/assets/0cca57c8-f99c-4b53-bab8-9c9be22f48f1)
+
+> ❌ This does not work because the policy has not been applied to the RMG user.
+---
+
