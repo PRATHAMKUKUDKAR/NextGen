@@ -58,7 +58,7 @@ microsoft.com policy
 17. select remove run menu from start menu
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/7c79b2fb-96eb-4d75-87c5-af609beb622d" />
 18. select on anable
-19. click on anable
+19. click on apply
 20. click on ok
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/103f5442-a60d-44b5-a9bc-483bfb2c45b0" />
 
@@ -70,7 +70,7 @@ microsoft.com policy
 5. type Password `Pass@123`
 <img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/6fff2f59-8b15-40d4-8f76-c9ef18d69169" />
 
-6. curser moveto window icone
+6. curser move to window icone
 7. click on run
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
 8. now see this eroor
@@ -97,5 +97,50 @@ HR Policy
 14. click on policy
 15. click on administrative template
 16. click on start mene and start bar
-17. select remove run menu from start menu
-<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/351e736e-4eb3-43de-a58f-58a4464de930" />
+17. click on standard 
+18. select remove run menu from start menu
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/970b3ef4-8e1b-46ad-9b86-a00991744b66" />
+18. select on Disable
+19. click on Apply
+20. click on ok
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/645b54ab-7039-405b-8d66-e44836567680" />
+
+## Verify
+1. Go to server2
+2. power on the serve 2
+3. click on other user
+4. type user name `HR1`
+5. type Password `Pass@123`
+<img width="1919" height="1071" alt="image" src="https://github.com/user-attachments/assets/6fff2f59-8b15-40d4-8f76-c9ef18d69169" />
+
+6. curser move to window icone
+7. click on run
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
+
+in case can not open run command so do 
+1. open command prompt
+```
+gpupdate /force
+```
+6. curser move to window icone
+7. click on run
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
+
+8. then see thes reasult now work the run
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/148b6ea1-01ab-4415-990c-114b106de916" />
+
+## also Verify in user RMG but rmg not work on run because i can not give policy 
+1. Go to server2
+2. power on the serve 2
+3. click on other user
+4. type user name `RMG1`
+5. type Password `Pass@123`
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/09842651-f293-4059-ae1d-aae508fde26f" />
+
+6. curser move to window icone
+7. click on run
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8a2a7428-c9b9-44e1-acf2-27857e8c7fbb" />
+8. now see this eroor
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0cca57c8-f99c-4b53-bab8-9c9be22f48f1" />
+
+beacause i can not give policy in user RMG1 
