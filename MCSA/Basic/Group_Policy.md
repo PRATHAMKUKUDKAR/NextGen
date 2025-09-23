@@ -141,7 +141,7 @@ gpupdate /force
 > ✅ This works because the policy has been applied to the HR user.
 
 
-### Rmg User
+### RMG User
 
 1. On **Server2** log in as `RMG1 / Pass@123`.  
    ![RMG1 login](https://github.com/user-attachments/assets/09842651-f293-4059-ae1d-aae508fde26f)
