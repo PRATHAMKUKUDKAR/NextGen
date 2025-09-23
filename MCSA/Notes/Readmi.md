@@ -382,6 +382,50 @@ When a client joins the network, it follows the **DORA** process:
 | Year Introduced    | 1983                       | 2010+ (with UEFI)           |
 
 ---
+# 🛠️ Group Policy (GPO)
+
+## 📌 What is Group Policy?
+- Group Policy is a Windows feature used to **centrally manage settings** for users and computers.  
+- It is mostly used with **Active Directory (AD)**.
+
+---
+
+## 📌 Types of Group Policy
+1. **Local Group Policy**
+   - Applied to a single computer.  
+   - Example: Setting password policy on one PC.
+
+2. **Domain Group Policy**
+   - Applied to all users and computers in the domain.  
+   - Example: Setting the same wallpaper for all employees.
+
+---
+
+## 📌 Components of Group Policy
+- **GPO (Group Policy Object):** A collection of rules.  
+- **GPMC (Group Policy Management Console):** The tool used to create/manage GPOs.  
+- **OU (Organizational Unit):** A group of users/computers where GPO is applied.  
+
+---
+
+## 📌 Order of Application (Precedence)
+👉 **L → S → D → OU**
+
+1. Local Policy  
+2. Site Policy  
+3. Domain Policy  
+4. Organizational Unit (OU) Policy  
+
+*(OU policy has the highest precedence)*
+
+
+## 📌 Useful Commands
+- Open Local Group Policy Editor:
+  ```
+  gpupdate /force
+  ```
+
+---
 
 # 👤 Local Profile vs Roaming Profile in Windows
 
